@@ -1,0 +1,212 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+nav {
+    height: 55px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.brandName {
+
+    width: 30%;
+
+    padding: 2px;
+}
+
+div .brand-title {
+    font-size: 2.6rem;
+    padding: 2px;
+    text-align: center;
+}
+
+.navbar {
+
+    width: 100%;
+
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+
+    align-items: center;
+
+
+
+}
+
+.navbar ul li {
+    margin: 4%;
+
+    margin: 0% 3%;
+
+    font-size: 1.3rem
+}
+
+a {
+    color: white;
+    padding: 6px;
+    border-radius: 17px;
+
+
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+div.img {
+    background-image: url('./images/tasty-food.webp');
+
+    width: 100%;
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    /* justify-content:center ; */  
+    align-items: center;
+    flex-direction: column;
+}
+div.myclass  img{
+    width: 100%;
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+div h2.title {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 20px 20px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+div p.text {
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    opacity: 1.2;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+div.btn {
+    display: inline-block;
+    margin: 25px;
+}
+
+.click {
+    border: 3px solid white;
+    background-color: rgb(85, 15, 15);
+    padding: 12px 30px;
+    color: white;
+    padding: 12px 42px;
+    border-radius: 26px;
+    font-size: 1.2rem;
+}
+
+.click:hover {
+    background-color: rgb(137 31 31);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.big-orders {
+    margin: 2%;
+    width: 30%;
+    height: 90%;
+    background-color: brown;
+}
+
+/* Services Section */
+
+#services {
+    margin: 34px;
+    display: flex;
+
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 4px;
+    border-radius: 23px;
+    margin: 4px;
+    background-color: #fcfcfc;
+
+}
+
+#services .box img {
+    height: 156px;
+    display: block;
+    margin: auto;
+}
+
+div.box {
+    text-align: center;
+}
+
+/* Utility Classes */
+.h-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+    text-align: center;
+}
+
+.h-secondary {
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+}
+
+div.deliver{
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    margin-bottom: 1.2rem;
+    width: 20%;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.foot-one {
+    margin-left: 5%;
+}
+div.btn{
+    display: flex ;
+    justify-content: center;
+}
